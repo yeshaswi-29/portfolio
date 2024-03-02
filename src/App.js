@@ -1,30 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import IntroBox from "./components/Intro_box";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from './components/Footer';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
     <>
       <div className="App">
         <header className="App-header">
-          <p>Hi!!,Welcome to Yeshaswini's Portfolio</p>
+          <Navbar />
+          <IntroBox />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+          
         </header>
           
       </div>
           
     </>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
